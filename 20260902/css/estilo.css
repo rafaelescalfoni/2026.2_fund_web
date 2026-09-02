@@ -1,0 +1,92 @@
+/*
+MARROM: 32, 21, 2
+LARANJA:202, 78,48
+ROSA:172 0 71 
+*/
+body, h1, h2, h3, ul {
+    margin:0;
+}
+ 
+header, footer {
+    background-color: rgb(32,21,2);
+    color: #fff;
+    height: 250px;
+}
+
+header h1 {
+    padding-top:50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+header p {
+    text-align: center;
+}
+header a {
+    color:#fff;
+    text-decoration: none;
+}
+header ul {
+    list-style:none;
+    padding-left: 0;
+    width: 480px;
+    margin:50px auto;
+    /* próxima aula */
+    display: flex;
+    flex-direction: row;
+    /* próxima aula */
+}
+header li {
+    padding:10px 20px;
+}
+
+header li:hover {
+    background-color: rgb(172, 0, 71);
+    color:#fff;    
+}
+
+article {
+    border: 1px solid #f00;
+    width: 400px;
+    margin: auto;
+}
+
+
+article a {
+    background-color: rgb(172, 0, 71);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.fundo-laranja {
+    background-color: rgb(202,78,48);
+    color: #000;
+    height: 250px;
+    
+}
+
+.fundo-laranja h2, .fundo-laranja p {
+    text-align: center;
+    width: 700px;
+    margin:auto;
+    /*perceba que mesmo com text-align:center, os elementos p e h2 ficaram à esquerda. Isto acontesse pq a largura foi alterada. Precisamos redefinir as margens externas, usando a propriedade "auto". */
+}
+
+.fundo-laranja h2 {
+    padding-top:30px;
+}
+
+.fonte-grande {
+    /*
+    font-size: 30pt; 
+        exemplo de alteração de tamanho de fonte de elemento pai
+    */
+}
+
+.box {
+     /* font-size: 2rem; 32pt = 16pt(padrao do navegador)*/
+    /* font-size: 2em;  60pt = 2X font-size do 
+                        primeiro ancestral afetado*/
+}
