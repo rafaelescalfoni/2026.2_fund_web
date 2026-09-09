@@ -3,230 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        
-        div {
-            border:1px solid #f00;
-            width: 600px;
-        }
-        .teste1 {
-            position: relative;
-            top:50px; /* \/ */
-            left:100px; /* -> */
-        }
-        .teste2 {
-            background-color: rgb(239, 156, 3);
-            color:#000;
-            position: fixed;
-            bottom:50px; /* /\ */
-            right: 0; /* <- */
-        }
-        p img {
-            float: right;
-        }
-
-        p img:hover {
-            visibility: hidden;
-        }
-        nav ul {
-            display: flex;
-            flex-direction: row;
-
-            justify-content: space-between;
-            list-style: none;
-            width: 800px;
-            padding-left: 0;
-            border: #f00 1px solid;
-            gap:5px;
-        }
-        nav li {
-            padding: 10px 30px;
-            border-radius: 30px;
-        }
-        nav li:hover, nav li:nth-child(2n+1) {
-            background-color: rgb(241, 22, 139);
-            color:#fff;
-        }
-        
-
-        nav a {
-            color:#000;    
-        }
-
-        table, td, th {
-            border: 1px solid #000;
-            width: 300px;
-        }
-
-        table tr:nth-child(2n) {
-            background-color: #aaa;
-        }
-
-        table tr:hover {
-            background-color: #ff0;
-        }
-        p {
-            width: 400px;
-        }
-        p::first-letter {
-            font-size: 3em;
-            float: left;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Site Transit</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-        </nav>
+        <section class="header-top">
+            <span>CEFET</span>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Generic</a></li>
+                    <li><a href="#">Elements</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="container">
+            <h1>Hi. This is CEFET</h1>
+            <p class="subtitulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dicta sunt suscipit vero.
+                
+            </p>
+            <a href="#" class="botao azul">Lorem ipsum dolor</a>
+        </section>
     </header>
+    
+    <main>
+        <section class="cinza">
+            <div class="container">
+                <h2>Consectur adisicing elit</h2>
+                <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium reprehenderit esse, ea debitis rem.</p>
+                <div class="boxes">
+                    <article class="box">
+                        <i class="fa fa-area-chart fa-2x azul"></i>
+                        <h3 class="box-title">Lorem ipsum dolor</h3>
+                        <p class="box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium pariatur sit aut adipisci.</p>
+                    </article>
+                    <article class="box">
+                        <i class="fa fa-pie-chart fa-2x verde"></i>
+                        <h3 class="box-title">Lorem ipsum dolor</h3>
+                        <p class="box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium pariatur sit aut adipisci.</p>
+                    </article>
+                    <article class="box">
+                        <i class="fa fa-bar-chart fa-2x rosa"></i>
+                        <h3 class="box-title">Lorem ipsum dolor</h3>
+                        <p class="box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium pariatur sit aut adipisci.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="branca">
+            <div class="container">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati maxime impedit.</p>
+                <div class="depoimentos">
+                    <article class="depoimento">
+                        <div class="depoimento-avatar">
+                            <img src="./img/profile_placeholder.gif" alt="avatar" >
+                        </div>
+                        <div class="depoimento-conteudo">
+                            <h3 class="depoimento-titulo">Lorem ipsum</h3>
+                            <p class="depoimento-texto">Lorem ipsum dolor</p>
+                        </div>
+                    </article>
+                    <article class="depoimento">
+                        <div class="depoimento-avatar">
+                            <img src="./img/profile_placeholder.gif" alt="avatar" >
+                        </div>
+                        <div class="depoimento-conteudo">
+                            <h3 class="depoimento-titulo">Lorem ipsum</h3>
+                            <p class="depoimento-texto">Lorem ipsum dolor</p>
+                        </div>
+                    </article>
+                    <article class="depoimento">
+                        <div class="depoimento-avatar">
+                            <img src="./img/profile_placeholder.gif" alt="avatar" >
+                        </div>
+                        <div class="depoimento-conteudo">
+                            <h3 class="depoimento-titulo">Lorem ipsum</h3>
+                            <p class="depoimento-texto">Lorem ipsum dolor</p>
+                        </div>
+                    </article>
+                    <article class="depoimento">
+                        <div class="depoimento-avatar">
+                            <img src="./img/profile_placeholder.gif" alt="avatar" >
+                        </div>
+                        <div class="depoimento-conteudo">
+                            <h3 class="depoimento-titulo">Lorem ipsum</h3>
+                            <p class="depoimento-texto">Lorem ipsum dolor</p>
+                        </div>
+                    </article>
+                </div>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A praesentium eaque, ullam enim nobis ducimus voluptates distinctio.</p>
+                <a href="#" class="botao azul">Lorem ipsum dolor sit</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="boxes">
+                <article class="boxfoot">
+                    <h3 class="boxfoot-title">
+                        lorem ipsum dolor
+                    </h3>
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
 
-    <table>
-        <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-         <tr>
-            <td>a</td>
-            <th>b</th>
-        </tr>
-        <tr>
-            <td>c</td>
-            <th>d</th>
-        </tr>
-        
-    </table>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum corrupti recusandae nemo consectetur inventore tempore dicta quisquam quo! Officia reprehenderit quae facere impedit voluptatibus adipisci debitis tempore atque nemo minus!</p>
+                </article>
+
+                <article class="boxfoot">
+                    <h3 class="boxfoot-title">
+                        lorem ipsum dolor
+                    </h3>
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
+
+                </article>
+
+                <article class="boxfoot">
+                    <h3 class="boxfoot-title">
+                        lorem ipsum dolor
+                    </h3>
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
+
+                </article>
+
+                <article class="boxfoot">
+                    <h3 class="boxfoot-title">
+                        lorem ipsum dolor
+                    </h3>
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
+
+                </article>
+            </div>
+            <div class="boxes">
+                <p>
+                    &copy;2026 CEFET-RJ. All rights reserved. Designed by TEMPLATED
+                </p>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa fa-twitter rosa"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook azul"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram verde"></i></a></li>
+                    <li><a href="#"><i class="fa fa-telegram azul"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
