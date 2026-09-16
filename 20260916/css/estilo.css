@@ -1,0 +1,68 @@
+h1 {
+    text-shadow: 5px 10px 5px #faa, -5px -10px 5px #afa;
+}
+
+div {
+    border: #000 1px solid;
+    width: 400px;
+    /*box-shadow: 5px 5px 3px #666;*/
+    
+}
+
+img {
+    width: 500px;
+}
+
+img:hover {
+    transform: skewY(5deg);
+    transition: transform 1s ease;
+}
+
+/*
+.bolinha {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffa;
+
+    animation-name: teste;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+*/
+@keyframes teste {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(300px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* Smartphone */
+body {
+    background-color: #faa;
+}
+
+/* Tablet */
+@media (min-width:767px) {
+    body {
+        background-color: #afa;
+    }
+}
+
+/* Notebooks */
+@media (min-width:979px) {
+    body {
+        background-color: #aaf;
+    }
+}
+
+/* Desktop Grande */
+@media (min-width:1200px) {
+    body {
+        background-color: #f0f;
+    }
+}
