@@ -1,0 +1,40 @@
+/* utils files */
+@import "utils/variables.css";
+
+/* base files */
+
+@import "base/reset.css";
+@import "base/typography.css";
+
+/* layout files */
+@import "layout/header.css";
+@import "layout/site.css";
+
+
+/* components files */
+@import "components/banner.css";
+@import "components/box.css";
+@import "components/depoimento.css";
+
+
+
+/* common rules */
+body {
+    background-color: var(--azul-fundo);
+}
+
+header, header a, main, footer, footer a{
+    color: #fff;
+}
+
+header strong, header li:first-child a {
+    color: var(--azul-botao);
+}
+
+main {
+    background-color: #fff;
+}
+
+blockquote, .menu {
+    background-color: var(--azul-claro);
+}

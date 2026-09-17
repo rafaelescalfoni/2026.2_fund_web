@@ -1,0 +1,8 @@
+:root {
+    --azul-fundo: rgb(21,36,50);
+    --azul-caixa: rgb(79,118,165);
+    --azul-botao: rgb(128,186,234);
+    --azul-claro: rgb(218,239,254);
+
+    --fontes: Arial, Helvetica, sans-serif;
+}

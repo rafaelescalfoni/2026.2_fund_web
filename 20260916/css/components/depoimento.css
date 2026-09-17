@@ -1,0 +1,51 @@
+.depoimentos {
+    display: flex;
+    color:#000;   
+}
+.conquiste p{
+    line-height: 1.5;
+    font-size: .9em;
+}
+.depoimento {
+    width: 100%; /*870 no total*/
+}
+.depoimento__texto {
+    margin-left: 0;
+    width: inherit;
+    padding:25px 25px 35px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 25% 90%, 20% 100%, 15% 90%, 0 90%);
+}
+
+.conquiste img {
+    float: left;
+    margin-right: 20px;
+}
+
+@media (max-width:480px) {
+    .depoimentos {
+        flex-direction: column;
+    }
+    .conquiste, .depoimento {
+        width: inherit;
+    }
+    
+}
+
+/*Desktop*/
+@media (min-width:979px) {
+
+    .depoimentos{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .conquiste {
+        width: 560px;
+    }
+    .conquiste img {
+        float: left;
+    }
+    .depoimento {
+        width: 280px; /*870 no total*/
+    }
+
+}
