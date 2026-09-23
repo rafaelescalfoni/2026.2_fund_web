@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url(../img/vitrine.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 0;
+}
+
+@media (max-width:776px) {
+    
+}
